@@ -1,29 +1,36 @@
 .nav_bar{
-    background-color: rgb(red, green, blue,154);
+    
     width: 100%;
     size : 30px;
+    margin-top: 20px;
     
     overflow: auto;
     text-align: center;
+    border:#9326a7 solid;
+    border-radius: 25px;
 }
 .nav_bar a {
     padding: 12px;
-    font-size: 20px;
+    font-size: 25px;
     padding: 5px 10px;
     display: inline-block;
     text-decoration: none;
+
 }
 .nav_bar a:hover{
-    background-color:rgb(100, 69, 178);
-    color:rgb(54, 84, 185);
+    background-color:rgba(148, 47, 109, 0.597);
+    color:rgb(255, 255, 255);
 }
 .nav_button{
-    color: azure;
+    color: rgb(151, 22, 121);
 }
 .heading{
     text-align:center;
-    color: rgba(130, 37, 200, 0.721);
+    color: #9326a7;
     font-size: 30px;
+    
+    border: 2px solid #a752dcf4;
+    border-radius: 25px;
 }
 
 body{
@@ -36,7 +43,23 @@ body{
     background-size: cover;
 }
 .trans_background{
-    background-color: rgb(255,255,255,0.4);
+    background-color: rgba(78, 42, 162, 0.4);
+    border-radius: 25px;
+  
+}
+.text{
+    color: #9326a7;
+    font-size: x-large; 
+    size: 100px;
+       
+}
+.trans_image{
+    background-color:rgba(255,255,255,0.2) ;
+    
+}
+.center{
+    align-items: center;
+    
 }
 
 
