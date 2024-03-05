@@ -1,0 +1,42 @@
+.nav_bar{
+    background-color: rgb(red, green, blue,154);
+    width: 100%;
+    size : 30px;
+    
+    overflow: auto;
+    text-align: center;
+}
+.nav_bar a {
+    padding: 12px;
+    font-size: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.nav_bar a:hover{
+    background-color:rgb(100, 69, 178);
+    color:rgb(54, 84, 185);
+}
+.nav_button{
+    color: azure;
+}
+.heading{
+    text-align:center;
+    color: rgba(130, 37, 200, 0.721);
+    font-size: 30px;
+}
+
+body{
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    background-image: url("HomePage.jpg");
+    background-size: cover;
+}
+.trans_background{
+    background-color: rgb(255,255,255,0.4);
+}
+
+
